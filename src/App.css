@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+:root {
+    --color1: #CDE1EE;
+    --color2: #A5A5A5;
+    --mainWhite: #F7F7F7;
+    --color4: #5D5D5D;
+    --color3: #2C4556;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: var(--mainWhite) !important;
+    color: var(--color4) !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-title {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-blue {
+    color: var(--color1);
 }
-
-.App-link {
-  color: #61dafb;
+.text-bright {
+    color: var(--color2);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+    justify-content: flex-start !important;
+}
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: var(--color4);
+    border-radius: 0 !important;
+    border: 0.1rem solid var(--color4) !important;
+}
+.btn-black:hover {
+    background: var(--color4) !important;
+    color: var(--mainWhite) !important;
+}
+.cart-icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--color3);
 }
