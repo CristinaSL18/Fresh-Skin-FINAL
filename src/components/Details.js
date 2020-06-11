@@ -27,12 +27,12 @@ export default class Details extends Component {
                                     <h1>{title}</h1>
                                 </div>
                             </div>
-                            {/* end of title */}
+
                             <div className="row">
                                 <div className="col-10 mx-auto col-md-6 my-3">
                                     <img src={img} className="img-fluid" alt="" />
                                 </div>
-                                {/* prdoduct info */}
+
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                                     <h1>{title}</h1>
                                     <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
@@ -48,12 +48,11 @@ export default class Details extends Component {
                                         Detalles
                                     </p>
                                     <p className="text-muted lead">{info}</p>
-                                    {/* buttons */}
+
                                     <div>
                                         <Link to="/">
                                             <ButtonContainer>Regresar</ButtonContainer>
                                         </Link>
-
                                         <ButtonContainer
                                             cart
                                             disabled={inCart ? true : false}
