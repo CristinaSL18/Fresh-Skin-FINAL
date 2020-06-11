@@ -4,6 +4,7 @@ import Slides from "./Slides";
 import BannerTop from "./BannerTop";
 import Gallery from "./Gallery";
 
+
 class Inicio extends React.Component {
     render() {
         return (

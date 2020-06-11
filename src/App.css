@@ -4,6 +4,7 @@
     --mainWhite: #F7F7F7;
     --color4: #5D5D5D;
     --color3: #2C4556;
+    --color5: #DEDEE1;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
     color: var(--color3);
 }
 
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;

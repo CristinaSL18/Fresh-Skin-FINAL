@@ -1,17 +1,25 @@
 import React from "react";
+import logo from "../LOGO.png";
 
-    class Footer extends React.Component {
-    render() {
-        return (
-            <React.Fragment>
-                <footer className="footer page-footer font-small special-color-dark pt-4">
-                    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-                        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+
+const Footer = () =>{
+    return(
+        <div className="App">
+            <footer className= "footer is-primary">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column">
+                            <p>Cristina Sánchez Lara</p>
+                        </div>
+                        <div className="column has-text-right">
+                            <a className="icon" href="#"><i className="fa fa-facebook"></i></a>
+                            <a className="icon" href="#"><i className="fa fa-twitter"></i></a>
+                        </div>
                     </div>
-                </footer>
-            </React.Fragment>
-        )
-    }
-}
+                </div>
+            </footer>
+        </div>
 
+    );
+}
 export default Footer;

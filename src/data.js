@@ -89,7 +89,7 @@ export const storeProducts = [
     id: 8,
     title: "Crema de Lotus",
     img: "img/producto8.jpg",
-    price: 499.00,
+    price: 499,
     company: "fresh",
     info:
       "Una crema de recuperación nocturna de vanguardia impulsada por el antioxidante Super Lotus que ayuda a fortalecer la barrera cutánea mientras combate la opacidad y la deshidratación.",

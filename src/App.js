@@ -6,11 +6,8 @@ import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
 import Details from "./components/Details";
 import Default from "./components/Default";
-import Slides from "./components/Slides";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
-import BannerTop from "./components/BannerTop";
-import Title from "./components/Title";
 import Contact from "./components/Contact";
 import Inicio from "./components/Inicio";
 import Footer from "./components/Footer";
@@ -33,6 +30,7 @@ class App extends Component {
                 <Modal />
                 <Footer/>
             </React.Fragment>
+
         );
     }
 }
