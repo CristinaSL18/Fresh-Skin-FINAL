@@ -12,6 +12,8 @@ import Modal from "./components/Modal";
 import BannerTop from "./components/BannerTop";
 import Title from "./components/Title";
 import Contact from "./components/Contact";
+import Inicio from "./components/Inicio";
+import Footer from "./components/Footer";
 
 
 class App extends Component {
@@ -19,19 +21,17 @@ class App extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <Title name="Bienvenidos" />
-                <Slides/>
-                <BannerTop/>
-                <Title name="Conocenos" />
                 <Switch>
-                    <Route exact path="/" component={ProductList} />
+                    <Route exact path="/" component={Inicio} />
+                    <Route exact path="/Inicio" component={Inicio} />
+                    <Route exact path="/productos" component={ProductList} />
                     <Route path="/details" component={Details} />
                     <Route path="/cart" component={Cart} />
+                    <Route path="/Contacto" component={Contact} />
                     <Route component={Default} />
                 </Switch>
-                <Contact/>
                 <Modal />
-
+                <Footer/>
             </React.Fragment>
         );
     }
